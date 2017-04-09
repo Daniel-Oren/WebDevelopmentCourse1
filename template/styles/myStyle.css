@@ -1,0 +1,171 @@
+body 
+{
+    direction:rtl;
+    background-color:#7e3988;
+}
+
+#container{
+    margin: 0 auto;
+    width:960px;
+    height:800px;
+    border:dotted 3px white;
+
+     
+}
+h1{
+    font-size:70px;
+    font-family:Tahoma;
+    color:#92C8E8;
+    margin-top:200px;
+    /*margin-right:250px;*/
+    text-align:center;
+    clear:both;
+    padding:40px;
+  
+}
+#img {
+    background-image:url("../images/i&y-(1).jpg");
+    width:198px;
+    height:299px;
+    margin-right:380px;
+    margin-top:50px;
+    background-repeat:no-repeat;
+    -webkit-transition: all 1.5s ease-in;
+-moz-transition: all 1.5s ease-in;
+-ms-transition: all 1.5s ease-in;
+-o-transition: all 1.5s ease-in;
+transition: all 1.5s ease-in;
+   
+
+}
+#img:hover{
+background-size:210px;
+   
+
+}
+
+h2{
+       color: #ffee8e;
+    font-size: 27px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#contactMe{
+    display: inline-block;
+    position: relative;
+    right: 435px;
+    top: 15px;
+}
+
+#facebook{ 
+    background-image:url("../images/facebook.png");
+    display:inline-block;
+    width:34px;
+    height:34px;
+    background-size:100px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    border-radius: 2px 2px 2px 2px;
+    background-position:left;
+}
+#facebook:hover{
+   background-image:url("../images/facebook.png");
+   display:inline-block;
+    width:34px;
+    height:34px;
+    background-size:100px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    border-radius: 2px 2px 2px 2px;
+    background-position:right;
+}
+#facebook:active{
+   background-image:url("../images/facebook.png");
+   display:inline-block;
+    width:34px;
+    height:34px;
+    background-size:100px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    border-radius: 2px 2px 2px 2px;
+    background-position:right;
+}
+#facebook:visited{
+   background-image:url("../images/facebook.png");
+    display:inline-block;
+    width:34px;
+    height:34px;
+    background-size:100px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    border-radius: 2px 2px 2px 2px;
+    background-position:center;
+}
+
+#gmail{
+    background-image:url("../images/gmail3.png");
+    display:inline-block;
+    width:40px;
+    height:30px;
+    background-size:120px;
+    background-position:left;
+}
+#gmail:hover{
+     background-image:url(../images/gmail3.png);
+   display:inline-block;
+    width:40px;
+    height:30px;
+    background-size:120px;
+    background-position:center;
+}
+#gmail:active{
+     background-image:url(../images/gmail3.png);
+   display:inline-block;
+    width:40px;
+    height:30px;
+    background-size:120px;
+    background-position:center;
+}
+#gmail:visited{
+     background-image:url(../images/gmail3.png);
+   display:inline-block;
+    width:40px;
+    height:30px;
+    background-size:120px;
+    background-position:right;
+}
+nav ul{
+      list-style:none;
+      margin-right:300px;
+      margin-top:20px;
+ }
+nav ul li{
+    display:inline-block;
+    float:right;
+}
+nav ul li a{
+     background-color:#7e3988;
+     color:white;
+     border:solid 2px #92C8E8;
+     padding:10px;
+     margin:2px;
+     text-decoration:none;
+     -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    background-position:center;
+    text-align:center;
+
+ }
+nav ul li a:hover{
+         border:solid 4px #ffee8e ;
+
+}
+nav ul li a:active{
+        border:solid 4px darkblue ;
+}
+ p{
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    border: solid 3px #92C8E8;
+    padding: 15px;
+    width: 410px;
+    margin-right: 250px;
+}
